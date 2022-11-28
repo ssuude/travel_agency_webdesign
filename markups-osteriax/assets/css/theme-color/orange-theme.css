@@ -4,8 +4,8 @@ Template Design By MarkUps.
 Author URI : http://www.markups.io/
 ========================================*/
 .scrollToTop {
-  background-color: #ff871c;
-  border: 2px solid #ff871c;
+  background-color: #0AA1DD;
+  border: 2px solid #0AA1DD;
 }
 
 .mu-readmore-btn,
@@ -27,7 +27,7 @@ Author URI : http://www.markups.io/
 .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, 
 .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus,
 .mu-main-navbar .navbar-header .navbar-brand span {
-  color: #ff871c;
+  color: #0AA1DD;
 }
 
 .mu-readmore-btn::after,
@@ -35,7 +35,7 @@ Author URI : http://www.markups.io/
 .mu-chef-nav .slick-dots li,
 .mu-top-slider .slick-dots li button,
 .mu-opening-hour {
-  border: 2px solid #ff871c;
+  border: 2px solid #0AA1DD;
 }
 
 .mu-readmore-btn:hover, 
@@ -55,7 +55,7 @@ Author URI : http://www.markups.io/
 .datepicker table tr td.day:hover,
 .mu-counter-nav li .mu-single-counter,
 .mu-top-slider .slick-dots li.slick-active button::before  {
-  background-color: #ff871c;
+  background-color: #0AA1DD;
 }
 
 .mu-readmore-btn:hover::after, 
@@ -67,7 +67,7 @@ Author URI : http://www.markups.io/
 .mu-contact-form input[type="text"]:focus,
 .mu-contact-form input[type="email"]:focus,
 .mu-contact-form textarea:focus {
-  border-color: #ff871c;
+  border-color: #0AA1DD;
 }
 
 .mu-browsmore-btn:hover, 
@@ -78,8 +78,8 @@ Author URI : http://www.markups.io/
 .mu-top-slider .slick-next:focus,
 .mu-send-btn:hover, 
 .mu-send-btn:focus {
-  background-color: #ff871c;
-  border-color: #ff871c;
+  background-color: #0AA1DD;
+  border-color: #0AA1DD;
 }
 
 
@@ -88,21 +88,21 @@ Author URI : http://www.markups.io/
 .mu-restaurant-menu li.active a,
 .mu-restaurant-menu li.active a:hover,
 .mu-restaurant-menu li.active a:focus {
-  color: #ff871c;
-  border-color: #ff871c #ff871c transparent;
+  color: #0AA1DD;
+  border-color: #0AA1DD #0AA1DD transparent;
 }
 
 
 #mu-reservation .mu-reservation-area .mu-reservation-content h3,
 .mu-contact-right .mu-contact-widget h3,
 .mu-opening-hour h2 {
-  border-bottom: 2px solid #ff871c;
+  border-bottom: 2px solid #0AA1DD;
 }
 
 
 .mu-chef-nav .slick-list li .mu-single-chef .mu-single-chef-social a {
-  border: 1px solid #ff871c;
-  color: #ff871c;
+  border: 1px solid #0AA1DD;
+  color: #0AA1DD;
 }
 
 
