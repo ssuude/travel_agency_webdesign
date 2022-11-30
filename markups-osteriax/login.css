@@ -5,7 +5,7 @@ html {
     margin:0;
     padding:0;
     font-family: sans-serif;
-    background: linear-gradient(#141e30, #243b55);
+    background: linear-gradient(#F2F4FB, #9ddbf4df);
   }
   
   .login-box {
@@ -15,7 +15,7 @@ html {
     width: 400px;
     padding: 40px;
     transform: translate(-50%, -50%);
-    background: rgba(0,0,0,.5);
+    background: #0aa1ddca;
     box-sizing: border-box;
     box-shadow: 0 15px 25px rgba(0,0,0,.6);
     border-radius: 10px;
@@ -24,7 +24,7 @@ html {
   .login-box h2 {
     margin: 0 0 30px;
     padding: 0;
-    color: #fff;
+    color: rgb(255, 255, 255);
     text-align: center;
   }
   
@@ -77,13 +77,13 @@ html {
   }
   
   .login-box a:hover {
-    background: #03e9f4;
+    background: #03e8f48d;
     color: #fff;
     border-radius: 5px;
     box-shadow: 0 0 5px #03e9f4,
-                0 0 25px #03e9f4,
-                0 0 50px #03e9f4,
-                0 0 100px #03e9f4;
+                0 0 25px #6dd6db,
+                0 0 50px #88bcbe,
+                /* 0 0 100px #fff; */
   }
   
   .login-box a span {
