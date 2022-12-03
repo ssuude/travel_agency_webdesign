@@ -33,7 +33,7 @@ jQuery(function($){
       dots: true,
       infinite: true,
       arrows: false,
-      speed: 500,     
+      speed: 200,     
       autoplay: true,
       fade: true,
       cssEase: 'linear'
@@ -187,6 +187,7 @@ jQuery(function($){
   /* ----------------------------------------------------------- */ 
   
   // for hover dropdown menu
+  
     jQuery('ul.nav li.dropdown').hover(function() {
       jQuery(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(200);
     }, function() {
