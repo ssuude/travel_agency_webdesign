@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ZADA</title>
+    <title>ZADA | Conact</title>
     <!-- Favicon -->
     <link rel="shortcut icon" href="assets/img/kısa logo.jpg" type="image/x-icon">
     <!-- Font awesome -->
@@ -56,22 +56,33 @@
 
         <!-- LOGO -->       
 
+         <!--  Text based logo  -->
+        <!-- <a class="navbar-brand" href="index.html">Osteria<span>X</span></a>  -->
 
             <!--  Image based logo  -->
-            <a class="navbar-brand" href="index.html"><img src="assets/img/logoidea3 - Kopya - Kopya.jpg" alt="Logo img"></a>
+         <a class="navbar-brand" href="index.html"><img src="assets/img/logoidea3 - Kopya - Kopya.jpg" alt="Logo img"></a>
        
 
       </div>
       <div id="navbar" class="navbar-collapse collapse">
         <ul id="top-menu" class="nav navbar-nav navbar-right mu-main-nav">
-          <li><a href="index.html">Zzattiri Zort Zort</a></li>
-          <li><a href="#mu-about-us">ABOUT US</a></li>                       
-          <li><a href="#mu-restaurant-menu">MENU</a></li>                       
-          <li><a href="#mu-reservation">RESERVATION</a></li>                       
-          <li><a href="#mu-gallery">GALLERY</a></li>
-          <li><a href="#mu-chef">OUR CHEFS</a></li> 
-          <li><a href="#mu-contact">CONTACT</a></li> 
-        </ul>                           
+          <li><a href="index.html">Anasayfa</a></li>
+          <li><a href="hakkımızda.html">Hakkımızda</a></li>
+          <li><a href="misyon-vizyon.html">Misyon-Vizyon</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="turlar.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Turlar
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="turlar.html">Yurt İçi Turları</a></li>
+              <li><a class="dropdown-item" href="yurtdisitur.html">Yurt Dışı Turları</a></li>
+              <li><a class="dropdown-item" href="kulturtur.html">Kültür Turları</a></li>
+            </ul></li>                    
+          <li><a href="rezervasyon.html">Rezervasyon</a></li>
+          <li><a href="contact.html">İletişim</a></li> 
+          <li><a href="login.html">Giriş Yap</a></li> 
+         
+                                 
       </div><!--/.nav-collapse -->       
     </div>          
   </nav> 
@@ -101,11 +112,11 @@
                     <!-- Email message div -->
                     <div id="form-messages"  ></div>
                     <!-- Start contact form -->
-                    <form id="ajax-contact" method="post" action="mailto:sudeelmas13@gmail.com" method="post" enctype="text/plain" class="mu-contact-form">
+                    <form id="ajax-contact"method="post" action="mailer.php" class="mu-contact-form">
                       <div class="form-group">
                         <br><br><br>
                         <label for="name">İsim</label>
-                        <input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
+                        <input type="text" class="form-control" id="name" name="name" placeholder="İsim" required>
                       </div>
                       <div class="form-group">
                         <label for="email">Email adresi</label>
@@ -113,11 +124,11 @@
                       </div>                      
                       <div class="form-group">
                         <label for="subject">Konu</label>
-                        <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" required>
+                        <input type="text" class="form-control" id="subject" name="subject" placeholder="Konu" required>
                       </div>
                       <div class="form-group">
                         <label for="message">Metin</label>                        
-                        <textarea class="form-control" id="message" name="message"  cols="30" rows="10" placeholder="Type Your Message" required></textarea>
+                        <textarea class="form-control" id="message" name="message"  cols="30" rows="10" placeholder="Mesaj" required></textarea>
                       </div>                      
                       <button type="submit" class="mu-send-btn">Gönder</button>
                     </form>
@@ -150,7 +161,7 @@
                       <h3>Ofis Adresimiz</h3> <br>
                       <p>Kocaeli'de bir yer.</p>
                       <address>
-                        <p><i class="fa fa-map-marker"></i>368 St. Panama City, Florida, USA</p>
+                        <p><i class="fa fa-map-marker"></i>368 St.  İzmit, Kocaeli</p>
                         <p><i class="fa fa-phone"></i> 0534 639 20 47</p>
                         <p><i class="fa fa-envelope-o"></i>sudeelmas13@gmail.com</p>
                         
@@ -162,7 +173,8 @@
             <div class="col-md-4">
               <div class="mu-contact-right">
                 <div class="mu-contact-widget">
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d92181.19369019482!2d11.097440786255858!3d43.779868346813615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132a56a680d2d6ad%3A0x93d57917efc72a03!2sFloransa%2C%20Firenze%20ili%2C%20%C4%B0talya!5e0!3m2!1str!2str!4v1669810302170!5m2!1str!2str" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d92181.19369019482!2d11.097440786255858!3d43.779868346813615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132a56a680d2d6ad%3A0x93d57917efc72a03!2sFloransa%2C%20Firenze%20ili%2C%20%C4%B0talya!5e0!3m2!1str!2str!4v1669810302170!5m2!1str!2str" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3019.2925595477936!2d29.918002115270983!3d40.82153717932018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cb4ef33844cccb%3A0x783e419b5d0539ef!2sKocaeli%20%C3%9Cniversitesi%20Teknoloji%20Fak%C3%BCltesi!5e0!3m2!1str!2str!4v1670176021115!5m2!1str!2str" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
               </div>
             </div>
@@ -178,43 +190,47 @@
   <!-- End Contact section -->
 
   <!-- Start Footer -->
-  <footer id="mu-footer">
-    <div class="container">
-      <div class="row" style="color:white">
-       
-      <div class="row">
-        <div class="col-md-6">
-          <div class="mu-contact-left" >
-            <h3>Adresimiz</h3> <br>
-            <p>Kocaeli'de bir yer.</p>
-            <address>
-              <p><i class="fa fa-map-marker"></i>368 St. Panama City, Florida, USA</p>
-              <p><i class="fa fa-phone"></i> 0534 639 20 47</p>
-              <p><i class="fa fa-envelope-o"></i> sudeelmas13@gmail.com</p>
-              
-            </address>
-          </div>
+  <!-- Start Footer -->
+<footer id="mu-footer">
+  <div class="container">
+    <div class="row" style="color:white">
+     
+    <div class="row">
+      <div class="col-md-6">
+        <div class="mu-contact-left" >
+          <h3>Adresimiz</h3> <br>
+          <p>Kocaeli'de bir yer.</p>
+          <address>
+            <p><i class="fa fa-map-marker"></i>368 St. Panama City, Florida, USA</p>
+            <p><i class="fa fa-phone"></i> 0534 639 20 47</p>
+            <p><i class="fa fa-envelope-o"></i> sudeelmas13@gmail.com</p>
+            
+          </address>
         </div>
+      </div>
 
-        <div class="col-md-6">
-          <div class="mu-contact-right">
-            <div class="mu-footer-area">
-              <div class="mu-footer-social">
-                <h3>Sosyal Medya Hesaplarımız</h3><br>
-               <a href="#"><span class="fa fa-facebook"></span></a>
-               <a href="#"><span class="fa fa-twitter"></span></a>
-               <a href="#"><span class="fa fa-google-plus"></span></a>
-               <a href="#"><span class="fa fa-linkedin"></span></a>
-               <a href="#"><span class="fa fa-youtube"></span></a>
-             </div>
-            </div>
+      <div class="col-md-6">
+        <div class="mu-contact-right">
+          <div class="mu-footer-area">
+            <div class="mu-footer-social">
+              <h3>Sosyal Medya Hesaplarımız</h3><br>
+             <a href="#"><span class="fa fa-facebook"></span></a>
+             <a href="#"><span class="fa fa-twitter"></span></a>
+             <a href="#"><span class="fa fa-google-plus"></span></a>
+             <a href="#"><span class="fa fa-linkedin"></span></a>
+             <a href="#"><span class="fa fa-youtube"></span></a>
+           </div><br><br>
+           <h3>Ödeme Seçenekleri</h3>
+           <img src="assets\img\mastercard.png" alt="master">
+           <img src="assets\img\visa.png" alt="visa">
           </div>
         </div>
       </div>
-      <hr style="height:1px;border-width:0;background-color:rgb(55, 55, 57)">
-      <p style="text-align:center;">Copyright ©2022 All rights reserved || Tasarlayanlar Sude Nur Elmas & Ali Tunahan Avcu</p>
     </div>
-  </footer>
-  <!-- End Footer -->
+    <hr style="height:1px;border-width:0;background-color:rgb(55, 55, 57)">
+    <p style="text-align:center;">Copyright ©2022 All rights reserved || Düzenleyenler Sude Nur Elmas & Ali Tunahan Avcu</p>
+  </div>
+</footer>
+<!-- End Footer -->
 </body>
 </html>

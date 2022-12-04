@@ -104,7 +104,10 @@ Author URI : http://www.markups.io/
   border: 1px solid #0AA1DD;
   color: #0AA1DD;
 }
-
+.mu-details-btn:hover::after, 
+.mu-details-btn:focus::after{
+  background-color:#79DAE8;
+}
 
 
 /*=======================================
